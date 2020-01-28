@@ -88,6 +88,13 @@
 				</dict>
 			</array>
 		</config-file>
+		
+    <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
+      <string>applinks:share.giftonix.com</string>
+    </config-file>
+    <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
+      <string>applinks:share.giftonix.com</string>
+    </config-file>		
 
 		<source-file src="src/ios/AppDelegate+IonicDeeplink.m" />
 		<header-file src="src/ios/IonicDeeplinkPlugin.h" />
